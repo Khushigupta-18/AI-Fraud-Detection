@@ -1,33 +1,20 @@
-# Credit Card Fraud Detection
-
-## Project Overview
-Machine Learning based fraud detection system using Random Forest.
-
-## Dataset
-European credit card transactions dataset.
+# AI-Powered Credit Card Fraud Detection
 
 ## Features
-- EDA
-- SMOTE Balancing
-- Random Forest
+- Fraud Detection using Random Forest
+- Exploratory Data Analysis
 - Fraud Analytics Dashboard
-- Live Prediction
+- ROC Curve
+- Confusion Matrix
+- Feature Importance
+- Streamlit Deployment
 
-## Technologies
+## Live Demo
+<https://ai-fraud-detection-bdddpqjaimhycymudy79bt.streamlit.app/>
+
+## Technologies Used
 - Python
 - Pandas
 - Scikit-Learn
-- Streamlit
 - Plotly
-
-## Results
-Accuracy: xx%
-ROC-AUC: xx%
-
-## Dashboard Screenshots
-
-(Add images)
-
-## How To Run
-
-streamlit run app.py
+- Streamlit
