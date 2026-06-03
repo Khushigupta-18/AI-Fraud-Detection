@@ -17,4 +17,9 @@
 - Pandas
 - Scikit-Learn
 - Plotly
+
+<<<<<<< HEAD
 - Streamlit
+=======
+- Streamlit
+>>>>>>> f733f20 (Updated project files)
