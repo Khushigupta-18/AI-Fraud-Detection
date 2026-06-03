@@ -7,8 +7,7 @@ from sklearn.metrics import roc_curve, auc
 import plotly.graph_objects as go
 
 # Load the trained model
-model = joblib.load(r"D:\Fintech_AI_Project\fraud_detection_model.pkl")
-
+model = joblib.load("fraud_detection_model.pkl")
 st.set_page_config(
     page_title="Credit Card Fraud Detection Dashboard",
     page_icon="💳",
@@ -19,8 +18,7 @@ st.title("💳 Credit Card Fraud Detection Dashboard")
 st.markdown("Machine Learning + EDA + Fraud Analytics")
 
 # Load data
-df = pd.read_csv(r"D:\Fintech_AI_Project\creditcard_cleaned.csv")
-
+df = pd.read_csv("creditcard_cleaned.csv")
 # Dataset Overview
 col1, col2 = st.columns([3, 1])
 
