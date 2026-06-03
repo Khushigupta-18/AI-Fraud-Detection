@@ -1,25 +1,51 @@
 # AI-Powered Credit Card Fraud Detection
 
+## Project Overview
+This project uses Machine Learning to detect fraudulent credit card transactions. It includes data preprocessing, exploratory data analysis (EDA), model training, evaluation, and an interactive Streamlit dashboard.
+
 ## Features
 - Fraud Detection using Random Forest
-- Exploratory Data Analysis
-- Fraud Analytics Dashboard
-- ROC Curve
+- Exploratory Data Analysis (EDA)
+- Interactive Streamlit Dashboard
+- ROC Curve Visualization
 - Confusion Matrix
-- Feature Importance
-- Streamlit Deployment
-
-## Live Demo
-<https://ai-fraud-detection-bdddpqjaimhycymudy79bt.streamlit.app/>
+- Feature Importance Analysis
+- Fraud Transaction Insights
 
 ## Technologies Used
 - Python
 - Pandas
+- NumPy
 - Scikit-Learn
 - Plotly
+- Streamlit
 
-<<<<<<< HEAD
-- Streamlit
-=======
-- Streamlit
->>>>>>> f733f20 (Updated project files)
+## Model Performance
+- Random Forest Classifier
+- ROC-AUC Analysis
+- Precision, Recall, and F1-Score Evaluation
+
+## Dashboard Screenshots
+- Dashboard Overview
+- Confusion Matrix
+- ROC Curve
+- Feature Importance
+
+## Live Demo
+https://ai-fraud-detection-bdddpqjaimhycymudy79bt.streamlit.app/
+
+## Repository Structure
+├── app.py
+├── file.ipynb
+├── sample_data.csv
+├── sample_data.py
+├── fraud_detection_model.pkl
+├── requirements.txt
+├── images/
+└── README.md
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
