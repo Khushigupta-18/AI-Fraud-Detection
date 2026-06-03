@@ -18,7 +18,7 @@ st.title("💳 Credit Card Fraud Detection Dashboard")
 st.markdown("Machine Learning + EDA + Fraud Analytics")
 
 # Load data
-df = pd.read_csv("creditcard_cleaned.csv")
+df = pd.read_csv("sample_data.csv")
 # Dataset Overview
 col1, col2 = st.columns([3, 1])
 
